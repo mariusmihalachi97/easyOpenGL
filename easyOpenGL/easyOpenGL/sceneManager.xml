@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sceneManager>
+
+	<backgroundColor>
+		<r>0.0</r>
+		<g>0.0</g>
+		<b>0.0</b>
+	</backgroundColor>
+
+	<cameras>
+		<camera id="1">
+			<position>
+				<x>1600</x>
+				<y>0</y>
+				<z>0</z>
+			</position>
+			<target>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</target>
+			<up>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</up>
+			<translationSpeed>1500</translationSpeed>
+			<rotationSpeed>0.5</rotationSpeed>
+			<fov>45</fov>
+			<near>0.2</near>
+			<far>15000</far>
+		</camera>
+		<!-- eventual si alte cameras -->
+	</cameras>
+	<activeCamera>1</activeCamera>
+
+	
+	<objects>
+		<object id="1">
+			<model>6</model><!-- id model -->
+			<shader>6</shader><!-- id shader -->
+			<type>normal</type>
+			<blend>true</blend>
+			<name>sun</name><!-- optional -->
+			<parent>-1</parent>
+			<revolutionaxis>
+			    <x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</revolutionaxis>
+			<revolutionspeed>0</revolutionspeed>
+			<rotationaxis>
+			    <x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</rotationaxis>
+			<rotationspeed>0.2</rotationspeed>
+			<textures>
+				<texture id="4"/>
+			</textures>
+			<position><!-- translatia -->
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>150</x>
+				<y>150</y>
+				<z>150</z>
+			</scale>
+		</object>
+	</objects>
+
+	<ambientalLight>
+		<color>
+			<r>1.0</r>
+			<g>1.0</g>
+			<b>1.0</b>
+		</color>
+		<ratio>0.2</ratio>
+	</ambientalLight>
+	
+	<lights>
+		<light id="1">
+			<associatedObject>2</associatedObject>
+			<diffuseColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</diffuseColor>
+			<specularColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</specularColor>
+			<type>point</type>
+		</light>
+	</lights>
+	
+</sceneManager>

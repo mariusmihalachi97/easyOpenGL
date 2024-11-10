@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceManager>
+	<models>
+		<model id="1">
+			<path>Resources/Models/cube.obj</path>
+			<type>obj</type>
+		</model>
+		<model id="2">
+			<path>Resources/Models/bunny.obj</path>
+			<type>nobj</type>
+		</model>
+		<model id="3">
+			<path>Resources/Models/sphere.obj</path>
+			<type>obj</type>
+		</model>
+		<model id="4">
+			<path>Resources/Models/hyperboloid.obj</path>
+			<type>nobj</type>
+		</model>
+		<model id="5">
+			<path>Resources/Models/hyperboloid_2_sheet.obj</path>
+			<type>nobj</type>
+		</model>
+		<model id="6">
+			<path>Resources/Models/sphere2.obj</path>
+			<type>obj</type>
+		</model>
+		<!-- si aici se adauga toate modelele -->
+	</models>
+	<shaders>
+		<shader id="1">
+			<vs>Resources/Shaders/modelShader.vert</vs>
+			<fs>Resources/Shaders/modelShader.frag</fs>
+		</shader>
+		<shader id="2">
+			<vs>Resources/Shaders/instancedModelShader.vert</vs>
+			<fs>Resources/Shaders/instancedModelShader.frag</fs>
+		</shader>
+		<shader id="3">
+			<vs>Resources/Shaders/modelShader2.vert</vs>
+			<fs>Resources/Shaders/modelShader2.frag</fs>
+		</shader>
+		<shader id="4">
+			<vs>Resources/Shaders/earthShader.vert</vs>
+			<fs>Resources/Shaders/earthShader.frag</fs>
+		</shader>
+		<shader id="5">
+			<vs>Resources/Shaders/planetShader.vert</vs>
+			<fs>Resources/Shaders/planetShader.frag</fs>
+		</shader>
+		<shader id="6">
+			<vs>Resources/Shaders/sunShader.vert</vs>
+			<fs>Resources/Shaders/sunShader.frag</fs>
+		</shader>
+		<shader id="7">
+			<vs>Resources/Shaders/ringShader.vert</vs>
+			<fs>Resources/Shaders/ringShader.frag</fs>
+		</shader>
+		<!-- si aici se adauga toate shaderele -->
+	</shaders>
+	<textures>
+	    <texture id="1" type="2d">
+			<path>Resources/Textures/1.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="2" type="2d">
+			<path>Resources/Textures/night.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="3" type="2d">
+			<path>Resources/Textures/clouds.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="4" type="2d">
+			<path>Resources/Textures/2k_sun.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="5" type="2d">
+			<path>Resources/Textures/2k_moon.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="6" type="2d">
+			<path>Resources/Textures/2k_mars.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="7" type="2d">
+			<path>Resources/Textures/2k_neptune.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="8" type="2d">
+			<path>Resources/Textures/2k_saturn.jpg</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="9" type="2d">
+			<path>Resources/Textures/index.jpg</path>			
+			<min_filter>NEAREST</min_filter>
+			<mag_filter>NEAREST</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<!-- si aici se adauga toate texturile -->
+	</textures>	
+</resourceManager>
